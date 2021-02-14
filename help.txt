@@ -1,0 +1,53 @@
+Welcome my wim! 
+There are four modes: EDITOR MODE, SEARCH MODE, INPUT MODE, COMMAND MODE
+
+EDITOR MODE:
+Navigation and editing mode is the main mode of operation. At the start, the program should start its work in this particular mode.
+Base command:
+Move around: Use the arrows
+Move cursor to beginning of line: Use  <^> or <0>
+Move cursor to ending of line: Use <$>
+Move cursor to beginning of word: Use <w>
+Move cursor to ending of word: Use <b>
+Move to beginning of line: Use <gg>
+Move to ending of line: Use <G>
+Move to N line: Use <NG>
+Move up a screen: Use <PG_UP>
+Move down a screen: Use <PG_DOWN>
+Delete character after cursor: Use <x>
+Delete the word under the cursor: Use <diw>
+Cut the current line: Use <dd>
+Copy the current line: Use <y>
+Copy the word under the cursor: Use <yw>
+Paste after cursor: Use <p>
+Close this windows: Use <ESC>
+
+SEARCH MODE
+Substring search mode allows you to find the required substring in the text
+Base command:
+Search for a line of text from the cursor to the end of the file: Use </text<ENTER>>
+Search for a line of text from the cursor to the begin of the file: Use <?text<ENTER>>
+Move to the next found substring: Use <n>
+Move to the previous found substring: Use <N>
+
+INPUT MODE
+Input mode allows you to add elements to text
+Base command:
+Input text after the cursor: Use <i>
+Move cursor to beginning of line and input: Use <I>
+Move cursor to ending of line and input: Use <A>
+Delete the line and input: Use <S>
+Change a symbol: Use <r>
+
+COMMAND MODE:
+Command mode allows you to work with the file. At the end of the command, you need to enter <ENTER> to execute the command.
+Base command:
+Open file: Use <o filename>
+Write to current file: Use <w>
+Write to current file and exit: Use <x>
+Write to file <filename>: Use <w filename>
+Exit: Use <q> [Warning: If test was changed, the command will not be executed]
+Exit without saving: Use <q!>
+Exit with saving: Use <wq!>
+Moving to <number> line: Use <number>
+Display command help: Use <h> [You are! Enter <ESC> to exit]
